@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Hammersmith+One&display=swap);
+
+* {
+    -fx-orig-button-color: #c7b370;
+    -fx-orig-button-color-hover: #d7c67b;
+    -fx-orig-button-font-color: #282828;
+    -fx-alt-button-color: #294a52;
+    -fx-alt-button-color-hover: #406d79;
+    -fx-alt-button-font-color: #ffffff;
+}
+
+.label, .list-view, .text-field{
+    -fx-font-family: "Comfortaa", sans-serif;
+}
+
+.button {
+    -fx-font-size: 15;
+    -fx-font-family: "Hammersmith One", sans-serif;
+}
+
+#orig {
+    -fx-background-color: -fx-orig-button-color;
+    -fx-text-fill: -fx-orig-button-font-color;
+}
+
+#alt {
+    -fx-background-color: -fx-alt-button-color;
+    -fx-text-fill: -fx-alt-button-font-color;
+}
+
+.button:hover {
+    -fx-scale-x: 1.01;
+    -fx-scale-y: 1.01;
+}
+
+#orig:hover {
+    -fx-background-color: -fx-orig-button-color-hover;
+}
+
+#alt:hover {
+    -fx-background-color: -fx-alt-button-color-hover;
+}
+
+#error {
+    -fx-text-fill: #ff0000;
+}
+
+.list-view {
+    -fx-font-size: 20;
+}
